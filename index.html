@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- 
+click manuel=boule smash si possible Ã©claisir la boule et remouve
+up 1 link 
+up 2 samus
+up 3 kurby -->
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smash click </title>
+</head>
+
+<body>
+    <div class="dps">
+        <h2 id="dps">dps</h2>
+        <h1 id="dt">0</h1>
+        <div class="logo"> <img src="clicker_smash_petite.png" alt="img"> </div>
+        <!--le logo-->
+
+    </div>
+    <div class="bouton">
+        <button onclick="sav()">sauver</button>
+        <button onclick="recup()">charger</button>
+    </div>
+    <div class="smash" onclick="addGolds(1)"> <img class="multiman" src="clicker_smash.png" alt="img"> </div>
+    <!--multi man-->
+
+    <div class="up">
+
+        <div class="link" onclick="getcharacss(0)">
+            <img id="imgt" src="link.webp" alt="img">
+            <p id="dgl">0</p>
+        </div>
+
+
+        <div class="samus" onclick="getcharacss(1)">
+            <img id="imgt" src="samus.webp" alt="img">
+            <p id="dgs">0</p>
+        </div>
+
+
+        <div class="kirby" onclick="getcharacss(2)">
+            <img id="imgt" src="kirby.png" alt="img">
+            <p id="dgk">0</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

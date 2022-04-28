@@ -1,0 +1,110 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            background-image: url(stage_multiman_teste.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        
+        .dps {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            margin-top: 15px;
+            margin-left: 75px;
+        }
+        
+        #smash {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .smash {
+            display: flex;
+            justify-content: center;
+            flex: 2;
+            margin-bottom: 15px;
+        }
+        
+        .multiman {
+            cursor: pointer;
+        }
+        
+        #link,
+        #samus,
+        #kirby {
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        #imgt {
+            width: 75px;
+            height: auto;
+        }
+        
+        .link {
+            margin-left: 15px;
+        }
+        
+        .kirby {
+            border-right: 15px;
+        }
+        
+        .up {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .link,
+        .kirby,
+        .samus {
+            display: flex;
+            cursor: pointer;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        h1,
+        h2,
+        p {
+            color: white;
+        }
+        
+        p {
+            font-size: 35px;
+            font-family: Georgia, serif;
+        }
+        
+        .deg {
+            font-size: 50px;
+            color: white;
+            font-weight: bold;
+            font-family: Georgia, serif;
+        }
+        
+        button {
+            display: flex;
+            color: red;
+        }

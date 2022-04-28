@@ -1,0 +1,73 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        
+        button {
+            display: flex;
+            align-items: center;
+        }
+        
+        .dps {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        #smash {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .smash {
+            display: flex;
+            justify-content: center;
+            flex: 2;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        #link,
+        #samus,
+        #kirby {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+        #link {
+            margin-left: 15px;
+        }
+        
+        #kirby {
+            border-right: 15px;
+        }
+        
+        .up {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
